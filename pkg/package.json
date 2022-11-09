@@ -1,0 +1,15 @@
+{
+  "name": "wasm-ppm",
+  "collaborators": [
+    "Jeremy Blackburn <jeremy.blackburn@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_ppm_bg.wasm",
+    "wasm_ppm.js",
+    "wasm_ppm.d.ts"
+  ],
+  "module": "wasm_ppm.js",
+  "types": "wasm_ppm.d.ts",
+  "sideEffects": false
+}
