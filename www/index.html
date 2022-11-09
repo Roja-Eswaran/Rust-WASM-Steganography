@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello wasm-pack!</title>
+  </head>
+  <body>
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <label for="file-input">Choose a PPM File</label>
+    <input type="file" id="file-input" name="file-input"/>
+    <img id="img-ppm"></img>
+    <br>
+    <label for="text-input">Message to Hide</label>
+    <br>
+    <textarea id="text-input" cols="50" rows="10">
+       Put Message to Hide here
+    </textarea>
+    <br>
+    <button id="btn-update_1">Unhide Message</button> 
+    <button id="btn-update">Hide Message</button> 
+    <br>
+    <pre id="output-pre"></pre>
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>
